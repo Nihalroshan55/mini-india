@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+.sim{
+    height: 85vh;
+    width: 100%;
+     /* transform: scale(1.1); transition: transform 6s ease 0s; */
+    /* opacity: ; width: 10584px; transform: translate3d(-4536px, 0px, 0px); */
+}
+.elect-br{
+    height: 15vh;
+}
+.bsize{
+    width: 30vw;
+    justify-content: center ;
+    align-items: center;
+}
+.cer-size{
+    width: 70%;
+}
+.card{
+    height: 5vh;
+}
+.hr{
+    height: 2vh;
+}
+.sil-w{
+ width: 100%;   
+}
+.text-1{
+    position:relative;
+top: -55vh;
+width: 70vw ;
+color: white;
+}
+@include media-breakpoint-down(xs) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
